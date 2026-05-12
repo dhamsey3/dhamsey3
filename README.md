@@ -10,10 +10,10 @@ Cloud & DevOps Engineer focused on infrastructure, automation, and reliable deli
 
 ## Featured Work
 
-- [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) — AWS deployment infrastructure with Terraform and CI/CD
-- [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) — Cloud-native DevOps platform on AWS
-- [siem-sandbox-elk](https://github.com/dhamsey3/siem-sandbox-elk) — Docker-based SIEM sandbox for security learning
-- [Azure-Twitter-Data-Analytics-Pipeline-Project](https://github.com/dhamsey3/Azure-Twitter-Data-Analytics-Pipeline-Project) — Azure-based analytics pipeline project
+- [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) — AWS deployment infrastructure with Terraform, containers, and CI/CD
+- [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) — Cloud-native DevOps platform with automated delivery workflows on AWS
+- [Azure-Twitter-Data-Analytics-Pipeline-Project](https://github.com/dhamsey3/Azure-Twitter-Data-Analytics-Pipeline-Project) — Azure-based data pipeline project for ingestion, processing, and analytics
+- [terraform-ansible](https://github.com/dhamsey3/terraform-ansible) — Infrastructure provisioning and application deployment using Terraform and Ansible
 
 ## Currently Learning
 
