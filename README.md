@@ -1,4 +1,4 @@
-# Hi, I'm David Hamsey
+# Hi, I'm Oluwadamilola (Dami)
 
 I'm a Cloud and DevOps Engineer with a growing interest in software development. My focus is on building reliable cloud infrastructure, automating delivery workflows, and developing practical technical solutions while continuing to strengthen my software engineering skills.
 
