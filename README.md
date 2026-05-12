@@ -1,4 +1,4 @@
-# David Hamsey
+# Oluwadamilola (Dami)
 
 **Cloud & DevOps Engineer** | Exploring **Software Development** | Building with **AWS, Terraform, Docker, Kubernetes, and CI/CD**
 
