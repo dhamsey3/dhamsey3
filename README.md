@@ -10,22 +10,9 @@ I’m a Cloud and DevOps Engineer focused on building reliable infrastructure, a
 
 ## Core Skills
 
-- AWS
-- Terraform
-- CloudFormation
-- Docker
-- Kubernetes
-- ECS / Fargate
-- ECR
-- RDS
-- DynamoDB
-- CloudWatch
-- CI/CD
-- TypeScript
-- JavaScript
-- Python
-- SQL
-- Shell scripting
+| AWS | Terraform | Docker | Kubernetes |
+| --- | --- | --- | --- |
+| CI/CD | CloudFormation | TypeScript | Python |
 
 ## Featured Projects
 
