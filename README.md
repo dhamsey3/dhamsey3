@@ -1,43 +1,42 @@
 # Oluwadamilola (Dami)
 
-**Cloud & DevOps Engineer** | Exploring **Software Development** | Building with **Cloud, IaC, Containerization, and CI/CD**
+**Cloud & DevOps Engineer** | Exploring **Software Development** | Building reliable systems with **Cloud, IaC, Containers, and CI/CD**
 
 ---
 
 ## About Me
 
-I’m a Cloud and DevOps Engineer focused on building reliable infrastructure, automating delivery workflows, and improving operational efficiency. I’m also actively growing my software development skills and enjoy building practical applications that connect infrastructure with user-facing solutions.
+I’m a Cloud and DevOps Engineer focused on building reliable infrastructure, automating delivery workflows, and improving operational efficiency. I’m also growing my software development skills and enjoy building practical solutions that connect infrastructure with real applications.
 
 ## Core Skills
 
-| Cloud (AWS, Azure) | IaC | Containerization | CI/CD |
+| Cloud | IaC | Containerization | CI/CD |
 | --- | --- | --- | --- |
-| Terraform, CloudFormation | Docker, Kubernetes | GitHub Actions, CodePipeline | TypeScript, Python |
+| AWS, Azure | Terraform, CloudFormation | Docker, Kubernetes | GitHub Actions, CodePipeline |
 
-## Featured Projects
+## Featured Work
 
 ### [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)
-Terraform infrastructure and CI/CD configuration for deploying the OpenStreetMap website to AWS using ECS/Fargate, ECR, and RDS.
+AWS deployment infrastructure using Terraform, ECS/Fargate, ECR, and RDS with CI/CD support.
 
 ### [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)
-AWS-native DevOps platform demonstrating CI/CD workflows with CloudFormation, CodePipeline, CodeBuild, ECR, ECS Fargate, DynamoDB, and CloudWatch.
+Cloud-native DevOps platform showcasing automated delivery workflows on AWS.
 
 ### [siem-sandbox-elk](https://github.com/dhamsey3/siem-sandbox-elk)
-Docker-based SIEM sandbox for detection development, attack simulation, and security learning with Elasticsearch, Kibana, Auditbeat, and Filebeat.
+Docker-based SIEM sandbox for security learning, attack simulation, and detection development.
 
-### [cybersec-docker-lab-sme](https://github.com/dhamsey3/cybersec-docker-lab-sme)
-Security operations lab simulating real-world cyber threats with Wazuh, Elastic Stack, and Atomic Red Team.
+### [Azure-Twitter-Data-Analytics-Pipeline-Project](https://github.com/dhamsey3/Azure-Twitter-Data-Analytics-Pipeline-Project)
+Azure-based data pipeline project for ingestion, processing, and analytics workflows.
 
-## Currently Focused On
+## Currently Learning
 
-- Strengthening cloud and DevOps engineering skills
-- Building end-to-end projects that combine infrastructure and software
-- Improving software development knowledge through hands-on work
-- Creating clean, well-documented, production-minded projects
+- Building stronger software development skills
+- Creating end-to-end projects that combine infrastructure and applications
+- Writing cleaner, more production-ready code and documentation
 
 ## Goal
 
-To grow into an engineer who can confidently work across both cloud infrastructure and software development, building systems that are reliable, scalable, and useful.
+To grow into an engineer who can confidently bridge cloud infrastructure and software development to build scalable, useful systems.
 
 ## Connect
 
