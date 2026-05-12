@@ -13,7 +13,7 @@ Cloud & DevOps Engineer focused on infrastructure, automation, and reliable deli
 - [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) — AWS infrastructure project using Terraform, ECS/Fargate, ECR, RDS, and CI/CD
 - [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) — AWS-native DevOps platform with automated delivery, container deployment, and monitoring
 - [Kubernetes-Deployment-and-Service-Configuration](https://github.com/dhamsey3/Kubernetes-Deployment-and-Service-Configuration) — Kubernetes deployment and service configuration for containerized application delivery
-- [cybersec-docker-lab-sme](https://github.com/dhamsey3/cybersec-docker-lab-sme) — Docker-based security operations lab showcasing monitoring, detection, and cyber resilience concepts
+- [siem-sandbox-elk](https://github.com/dhamsey3/siem-sandbox-elk) — Docker-based SIEM sandbox for detection development, attack simulation, and security learning
 
 ## Currently Learning
 
