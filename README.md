@@ -1,6 +1,6 @@
 # Oluwadamilola (Dami)
 
-**Cloud & DevOps Engineer** | Exploring **Software Development** | Building with **AWS, Terraform, Docker, Kubernetes, and CI/CD**
+**Cloud & DevOps Engineer** | Exploring **Software Development** | Building with **Cloud, IaC, Containerization, and CI/CD**
 
 ---
 
@@ -10,9 +10,9 @@ I’m a Cloud and DevOps Engineer focused on building reliable infrastructure, a
 
 ## Core Skills
 
-| AWS | Terraform | Docker | Kubernetes |
+| Cloud (AWS, Azure) | IaC | Containerization | CI/CD |
 | --- | --- | --- | --- |
-| CI/CD | CloudFormation | TypeScript | Python |
+| Terraform, CloudFormation | Docker, Kubernetes | GitHub Actions, CodePipeline | TypeScript, Python |
 
 ## Featured Projects
 
