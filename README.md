@@ -1,12 +1,12 @@
 # Oluwadamilola (Dami)
 
-Cloud & DevOps Engineer focused on cloud infrastructure, automation, infrastructure as code, and reliable deployment workflows.
+Cloud & DevOps Engineer focused on infrastructure, automation, and reliable delivery workflows — with growing interests in software engineering and AI/ML.
 
 ## Core Skills
 
-| Cloud | IaC & Automation | Containerization | CI/CD |
+| Cloud | IaC & Automation | Containers | CI/CD |
 | --- | --- | --- | --- |
-| AWS, Azure | Terraform, CloudFormation, Ansible | Docker, Kubernetes | GitHub Actions, CodePipeline |
+| AWS, Azure | Terraform, CloudFormation, Ansible | Docker, Kubernetes | GitHub Actions, GitLab CI/CD, CodePipeline |
 
 ## Featured Work
 
@@ -17,8 +17,9 @@ Cloud & DevOps Engineer focused on cloud infrastructure, automation, infrastruct
 
 ## Currently Learning
 
-- Software development
-- Backend engineering
+- Software engineering
+- Backend development
+- AI and machine learning
 - End-to-end application delivery
 
 ## Connect
