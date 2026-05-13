@@ -17,8 +17,6 @@ Cloud & DevOps Engineer focused on infrastructure, automation, and reliable deli
 
 ## Currently Learning
 
-- Software engineering
-- Backend development
 - AI and machine learning
 - End-to-end application delivery
 
