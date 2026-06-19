@@ -1,16 +1,16 @@
-# 👋 Oluwadamilola (Dami)
+#  Oluwadamilola (Dami)
 
 **Cloud & DevOps Engineer** building secure, automated, and scalable cloud platforms on **AWS** and **Azure**.
 
 ---
 
-## 🎯 About Me
+##  About Me
 
 I'm a Cloud & DevOps Engineer focused on building secure, automated, and reliable cloud platforms. My work centers on infrastructure as code, containerized workloads, CI/CD pipelines, and operational excellence.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <div align="center">
 
@@ -32,27 +32,27 @@ I'm a Cloud & DevOps Engineer focused on building secure, automated, and reliabl
 
 ---
 
-## 📌 Featured Work
+##  Featured Work
 
 <div>
 
-### 🚀 [OpenStreetMap AWS Cloud Deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)
+###  [OpenStreetMap AWS Cloud Deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)
 AWS infrastructure project using **Terraform**, **ECS/Fargate**, **ECR**, **RDS**, and **CI/CD**
 
-### 🔧 [PipelineForge AWS DevOps Platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)
+###  [PipelineForge AWS DevOps Platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)
 AWS-native DevOps platform with automated delivery, container deployment, and monitoring
 
-### ☸️ [Kubernetes Deployment & Service Configuration](https://github.com/dhamsey3/Kubernetes-Deployment-and-Service-Configuration)
+###  [Kubernetes Deployment & Service Configuration](https://github.com/dhamsey3/Kubernetes-Deployment-and-Service-Configuration)
 Kubernetes deployment and service configuration for containerized workloads
 
-### 🔒 [SIEM Sandbox (ELK Stack)](https://github.com/dhamsey3/siem-sandbox-elk)
+###  [SIEM Sandbox (ELK Stack)](https://github.com/dhamsey3/siem-sandbox-elk)
 Docker-based SIEM sandbox for detection development, attack simulation, and security learning
 
 </div>
 
 ---
 
-## 🎯 Current Focus
+##  Current Focus
 
 - ☁️ Cloud infrastructure and platform automation
 - 🔄 CI/CD and deployment reliability
@@ -73,7 +73,7 @@ Docker-based SIEM sandbox for detection development, attack simulation, and secu
 
 ---
 
-## 🤝 Connect with Me
+##  Connect with Me
 
 <div align="center">
 
@@ -87,6 +87,6 @@ Docker-based SIEM sandbox for detection development, attack simulation, and secu
 
 <div align="center">
 
-⭐ Feel free to explore my repositories and connect!
+ Feel free to explore my repositories and connect!
 
 </div>
