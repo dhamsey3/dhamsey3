@@ -1,4 +1,4 @@
-#  Oluwadamilola (Dami)
+#  Dami
 
 **Cloud & DevOps Engineer** building secure, automated, and scalable cloud platforms on **AWS** and **Azure**.
 
