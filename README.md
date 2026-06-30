@@ -1,92 +1,52 @@
-#  Dami
+# David Hamsey (dhamsey3)
 
-**Cloud & DevOps Engineer** building secure, automated, and scalable cloud platforms on **AWS** and **Azure**.
-
----
-
-##  About Me
-
-I'm a Cloud & DevOps Engineer focused on building secure, automated, and reliable cloud platforms. My work centers on infrastructure as code, containerized workloads, CI/CD pipelines, and operational excellence.
+Cloud-native engineer focused on building reliable, repeatable infrastructure and CI/CD for containerized applications.
 
 ---
 
-##  Tech Stack
+## About
 
-<div align="center">
+I build cloud infrastructure, deployment pipelines, and platform tooling with a focus on AWS, Terraform, Kubernetes, and automation. My work ranges from end-to-end CI/CD examples to lightweight sandboxes for testing monitoring and security stacks.
 
-| **Cloud** | **IaC & Automation** | **Containers** | **CI/CD** |
-|:---:|:---:|:---:|:---:|
-| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) | ![GitHub%20Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![GitLab%20CI](https://img.shields.io/badge/GitLab%20CI-FCA121?style=for-the-badge&logo=gitlab&logoColor=white) ![CodePipeline](https://img.shields.io/badge/CodePipeline-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900) |
-
-| **Monitoring & Observability** |
-|:---:|
-| ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F2702A?style=for-the-badge&logo=grafana&logoColor=white) ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white) |
-
-### Additional Skills
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
+Current focus: infrastructure automation, platform APIs, and observability.
 
 ---
 
-##  Featured Work
+## Skills & Technologies
 
-<div>
-
-###  [OpenStreetMap AWS Cloud Deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)
-AWS infrastructure project using **Terraform**, **ECS/Fargate**, **ECR**, **RDS**, and **CI/CD**
-
-###  [PipelineForge AWS DevOps Platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)
-AWS-native DevOps platform with automated delivery, container deployment, and monitoring
-
-###  [Kubernetes Deployment & Service Configuration](https://github.com/dhamsey3/Kubernetes-Deployment-and-Service-Configuration)
-Kubernetes deployment and service configuration for containerized workloads
-
-###  [SIEM Sandbox (ELK Stack)](https://github.com/dhamsey3/siem-sandbox-elk)
-Docker-based SIEM sandbox for detection development, attack simulation, and security learning
-
-</div>
+- Cloud: AWS (ECS/Fargate, CloudFormation, CodePipeline, CodeBuild, ECR, S3, DynamoDB), Azure basics
+- IaC & Orchestration: Terraform, Kubernetes (manifests, deployments, services)
+- Languages & tooling: Python, Bash, Docker, GitHub Actions
+- Observability & Security: ELK (Elasticsearch, Logstash/Beats, Kibana), CloudWatch
+- Data & analytics: Snowflake, QuickSight
 
 ---
 
-##  Current Focus
+## Featured projects
 
-- ☁️ Cloud infrastructure and platform automation
-- 🔄 CI/CD and deployment reliability
-- 🐳 Containerized workloads with Docker and Kubernetes
-- 🤖 AI and machine learning in DevOps
+- [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) ��� AWS-native DevOps platform showcasing CI/CD with CloudFormation, CodePipeline, CodeBuild, ECR, and ECS Fargate for a containerized Flask app.
+- [internal-developer-platform-api](https://github.com/dhamsey3/internal-developer-platform-api) — API platform for provisioning cloud infrastructure and deploying applications to Kubernetes.
+- [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) — Terraform and CI/CD config to deploy the OpenStreetMap website to AWS (ECS/Fargate, RDS, ECR).
+- [siem-sandbox-elk](https://github.com/dhamsey3/siem-sandbox-elk) — Docker-based local sandbox for Elasticsearch/Kibana/Auditbeat/Filebeat for detection development and SIEM learning.
+- [Automation-with-Python](https://github.com/dhamsey3/Automation-with-Python) — Useful Python scripts and examples (file organizer, automation helpers).
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dhamsey3&theme=dark&show_icons=true&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dhamsey3&theme=dark&layout=compact&hide_border=true)
-
-</div>
+(See my repositories list for more examples — I work across infra, automation, and small web tooling projects.)
 
 ---
 
-##  Connect with Me
+## How to evaluate my work quickly
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dhamsey3)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhamsey3)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:robinvp3@gmail.com)
-
-</div>
+1. Look at the repo README for architecture and quickstart instructions.
+2. For infra projects, check `terraform/` or `cloudformation/` folders and the CI pipeline definitions (GitHub Actions / CodeBuild specs).
+3. For demoable projects, see the `deploy` / `docker-compose` / `Makefile` instructions in the repo root.
 
 ---
 
-<div align="center">
+## Want to see more or collaborate?
 
- Feel free to explore my repositories and connect!
+- GitHub: https://github.com/dhamsey3
+- Email: (add contact email to this README if you'd like to make it public)
 
-</div>
+---
+
+Thanks for visiting — feel free to open an issue on any repo or send a message via GitHub if you'd like to collaborate or see a walkthrough of a project.
