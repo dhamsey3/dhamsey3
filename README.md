@@ -14,6 +14,17 @@ Current focus: infrastructure automation, platform APIs, and observability.
 
 ## Skills & Technologies
 
+<div align="center">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+</div>
+
 - Cloud: AWS (ECS/Fargate, CloudFormation, CodePipeline, CodeBuild, ECR, S3, DynamoDB), Azure basics
 - IaC & Orchestration: Terraform, Kubernetes (manifests, deployments, services)
 - Languages & tooling: Python, Bash, Docker, GitHub Actions
@@ -45,7 +56,8 @@ Current focus: infrastructure automation, platform APIs, and observability.
 ## Want to see more or collaborate?
 
 - GitHub: https://github.com/dhamsey3
-  
+- Email: (add contact email to this README if you'd like to make it public)
+
 ---
 
 Thanks for visiting — feel free to open an issue on any repo or send a message via GitHub if you'd like to collaborate or see a walkthrough of a project.
