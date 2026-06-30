@@ -23,6 +23,12 @@ Current focus: infrastructure automation, platform APIs, and observability.
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
+
+![PagerDuty](https://img.shields.io/badge/PagerDuty-FF7043?style=flat&logo=pagerduty&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-2D2DFF?style=flat&logo=snowflake&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-FF5C00?style=flat&logo=splunk&logoColor=white)
+
 </div>
 
 - Cloud: AWS (ECS/Fargate, CloudFormation, CodePipeline, CodeBuild, ECR, S3, DynamoDB), Azure basics
