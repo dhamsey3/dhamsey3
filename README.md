@@ -45,8 +45,7 @@ Current focus: infrastructure automation, platform APIs, and observability.
 ## Want to see more or collaborate?
 
 - GitHub: https://github.com/dhamsey3
-- Email: (add contact email to this README if you'd like to make it public)
-
+  
 ---
 
 Thanks for visiting — feel free to open an issue on any repo or send a message via GitHub if you'd like to collaborate or see a walkthrough of a project.
