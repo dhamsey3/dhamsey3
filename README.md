@@ -14,27 +14,32 @@ Current focus: infrastructure automation, platform APIs, and observability.
 
 ## Skills & Technologies
 
-<div align="center">
+<p align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+<!-- Core infra & tooling -->
 
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
+<img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
 
-![PagerDuty](https://img.shields.io/badge/PagerDuty-FF7043?style=flat&logo=pagerduty&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-2D2DFF?style=flat&logo=snowflake&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-FF5C00?style=flat&logo=splunk&logoColor=white)
+<br/>
 
-</div>
+<!-- CI, infra automation, and observability -->
+
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
+<img src="https://img.shields.io/badge/PagerDuty-FF7043?style=flat-square&logo=pagerduty&logoColor=white" alt="PagerDuty" />
+<img src="https://img.shields.io/badge/Splunk-FF5C00?style=flat-square&logo=splunk&logoColor=white" alt="Splunk" />
+<img src="https://img.shields.io/badge/Snowflake-2D2DFF?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake" />
+
+</p>
 
 - Cloud: AWS (ECS/Fargate, CloudFormation, CodePipeline, CodeBuild, ECR, S3, DynamoDB), Azure basics
 - IaC & Orchestration: Terraform, Kubernetes (manifests, deployments, services)
 - Languages & tooling: Python, Bash, Docker, GitHub Actions
-- Observability & Security: ELK (Elasticsearch, Logstash/Beats, Kibana), CloudWatch
+- Observability & Security: ELK (Elasticsearch, Logstash/Beats, Kibana), Splunk, PagerDuty, CloudWatch
 - Data & analytics: Snowflake, QuickSight
 
 ---
