@@ -1,4 +1,4 @@
-# David Hamsey (dhamsey3)
+# Cloud-native engineer (dhamsey3)
 
 Cloud-native engineer focused on building reliable, repeatable infrastructure and CI/CD for containerized applications.
 
@@ -24,7 +24,7 @@ Current focus: infrastructure automation, platform APIs, and observability.
 
 ## Featured projects
 
-- [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) ��� AWS-native DevOps platform showcasing CI/CD with CloudFormation, CodePipeline, CodeBuild, ECR, and ECS Fargate for a containerized Flask app.
+- [pipelineforge-aws-devops-platform](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) — AWS-native DevOps platform showcasing CI/CD with CloudFormation, CodePipeline, CodeBuild, ECR, and ECS Fargate for a containerized Flask app.
 - [internal-developer-platform-api](https://github.com/dhamsey3/internal-developer-platform-api) — API platform for provisioning cloud infrastructure and deploying applications to Kubernetes.
 - [openstreetmap-aws-cloud-deployment](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) — Terraform and CI/CD config to deploy the OpenStreetMap website to AWS (ECS/Fargate, RDS, ECR).
 - [siem-sandbox-elk](https://github.com/dhamsey3/siem-sandbox-elk) — Docker-based local sandbox for Elasticsearch/Kibana/Auditbeat/Filebeat for detection development and SIEM learning.
