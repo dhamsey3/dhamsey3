@@ -93,7 +93,7 @@ Docker-based SIEM sandbox using Elasticsearch, Kibana, Auditbeat, and Filebeat f
 
 ---
 
-###  Automation-with-Python
+###  automation-with-python
 
 A collection of Python scripts and automation utilities for simplifying operational tasks.
 
