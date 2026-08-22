@@ -1,108 +1,72 @@
-# Hi, I’m Dami
+<div align="center">
 
-<p align="center">
-  <strong>Cloud-native engineer building dependable platforms, automation, and modern delivery systems.</strong><br>
-  <sub>Infrastructure as code • Kubernetes • CI/CD • Developer enablement</sub>
+# DAMI
+
+### CLOUD PLATFORMS · AUTOMATION · DEVELOPER EXPERIENCE
+
+I build the paved roads that let engineering teams move quickly without making
+reliability, security, or operability somebody else’s problem.
+
+<a href="https://github.com/dhamsey3">GitHub</a> · <a href="https://github.com/dhamsey3?tab=repositories">Projects</a>
+
+</div>
+
+<br>
+
+```text
+01  PLATFORM ENGINEERING     self-service infrastructure that scales with the team
+02  CLOUD AUTOMATION          repeatable delivery, clean interfaces, fewer handoffs
+03  OPERABILITY               systems that are observable before they are on fire
+```
+
+## A little context
+
+I’m a cloud-native engineer working at the intersection of infrastructure,
+software delivery, and developer enablement. My favorite work turns a fragile
+manual process into a dependable system with a useful interface.
+
+I care about:
+
+- Infrastructure that is reproducible, secure, and easy to evolve
+- Delivery systems that make the right path the easiest path
+- Platform APIs and tooling that give developers useful autonomy
+- Observability and incident response built into the design
+
+## Tools I reach for
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-161616?style=flat-square&logo=amazon-aws&logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/Azure-161616?style=flat-square&logo=microsoft-azure&logoColor=0078D4" alt="Azure" />
+  <img src="https://img.shields.io/badge/Terraform-161616?style=flat-square&logo=terraform&logoColor=7B42BC" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Kubernetes-161616?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Docker-161616?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=FFD343" alt="Python" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-161616?style=flat-square&logo=github-actions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Ansible-161616?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
+  <img src="https://img.shields.io/badge/Splunk-161616?style=flat-square&logo=splunk&logoColor=65A637" alt="Splunk" />
+  <img src="https://img.shields.io/badge/Snowflake-161616?style=flat-square&logo=snowflake&logoColor=29B5E8" alt="Snowflake" />
 </p>
 
-Cloud-native engineer focused on building reliable infrastructure, modern CI/CD pipelines, and developer-friendly platforms.
+## Selected builds
 
-I enjoy turning complex systems into scalable, secure, and automated solutions using infrastructure as code, containerization, and cloud-native tooling.
+| Project | What it explores |
+| --- | --- |
+| **[PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)** | An AWS-native delivery platform with CodePipeline, CodeBuild, ECR, and ECS Fargate. |
+| **[Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing)** | Distributed performance testing for understanding how systems behave under load. |
+| **[Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api)** | A repeatable API for provisioning infrastructure and supporting Kubernetes deployments. |
+| **[OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)** | Terraform, ECS/Fargate, RDS, and CI/CD assembled as a production-style deployment. |
+| **[ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk)** | A Docker lab for log analysis, detection engineering, and security experiments. |
+| **[Automation with Python](https://github.com/dhamsey3/Automation-with-Python)** | Small operational tools that remove repetitive work and sharpen daily workflows. |
 
-<div align="center">
-  <hr width="60%">
-</div>
+## Current direction
 
-## About Me
-
-> I’m passionate about creating systems that are reliable, observable, and easy to evolve.
-
-- Building reliable cloud platforms and automation workflows
-- Improving developer experience through self-service tools
-- Creating infrastructure that is secure, observable, and easy to maintain
-- Bridging the gap between operations, engineering, and platform teams
-
----
-
-## Core Stack
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-<img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
-<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk" />
-<img src="https://img.shields.io/badge/PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white" alt="PagerDuty" />
-<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake" />
-
-</p>
-
-### Focus Areas
-
-- AWS and Azure cloud platforms
-- Infrastructure as Code with Terraform and CloudFormation
-- Kubernetes and containerized workloads
-- CI/CD and GitHub Actions automation
-- Python-based automation and tooling
-- Observability, security, and incident response
-- Platform engineering and internal developer platforms
-
----
-
-## Featured Projects
+```text
+cloud infrastructure  /  internal platforms  /  delivery automation
+security-minded ops    /  useful abstractions  /  fewer manual rituals
+```
 
 <div align="center">
-  <strong>Selected work spanning cloud platforms, automation, and platform engineering.</strong>
+
+<sub>Build systems people can trust. Keep learning in public.</sub>
+
 </div>
-
-### PipelineForge AWS DevOps Platform
-
-An AWS-native CI/CD platform built with CloudFormation, CodePipeline, CodeBuild, ECR, and ECS Fargate.
-
-https://github.com/dhamsey3/pipelineforge-aws-devops-platform
-
-### Internal Developer Platform API
-
-A platform API designed to provision infrastructure and support Kubernetes deployments in a repeatable way.
-
-https://github.com/dhamsey3/internal-developer-platform-api
-
-### OpenStreetMap on AWS
-
-A production-style deployment using Terraform, ECS/Fargate, RDS, and CI/CD practices.
-
-https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment
-
-### ELK SIEM Sandbox
-
-A Docker-based SIEM lab for log analysis, detection engineering, and security experimentation.
-
-https://github.com/dhamsey3/siem-sandbox-elk
-
-### Automation with Python
-
-A collection of Python scripts and utilities focused on operational automation and productivity.
-
-https://github.com/dhamsey3/Automation-with-Python
-
-<div align="center">
-  <hr width="60%">
-</div>
-
-## What You’ll Find Here
-
-- Infrastructure as Code
-- Cloud-native applications
-- CI/CD pipelines and automation
-- Platform engineering projects
-- Python-driven operational tooling
-- Security and observability labs
-
----
-
-If you’re interested in cloud infrastructure, platform engineering, DevOps, or automation, feel free to explore the repositories and connect.
