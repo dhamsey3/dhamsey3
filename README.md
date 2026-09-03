@@ -11,7 +11,7 @@ reliability, security, or operability somebody else’s problem.
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=39D353&center=true&vCenter=true&width=600&lines=%24+terraform+apply+-auto-approve;Apply+complete%21+Resources%3A+12+added%2C+0+changed%2C+0+destroyed.;%24+kubectl+get+pods+-n+prod;web-7f9d4c+++1%2F1+++Running+++0+++++3d;%24+aws+s3+ls+s3%3A%2F%2Fprod-artifacts%2F;%24+echo+%27building+paved+roads%2C+one+pipeline+at+a+time%27" alt="Typing SVG showing rotating DevOps terminal commands" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=39D353&center=true&vCenter=true&width=760&lines=%24%20terraform%20apply;Apply%20complete.%2012%20added%2C%200%20destroyed.;%24%20kubectl%20get%20pods%20-n%20prod;web-7f9d4c%20%20%201%2F1%20%20%20Running;%24%20aws%20s3%20sync%20.%2Fdist%20s3%3A%2F%2Fprod%2F;%24%20echo%20%27shipping%20with%20confidence%27" alt="Typing SVG showing rotating DevOps terminal commands" />
 
 </div>
 
@@ -52,12 +52,12 @@ I care about:
   <img src="https://img.shields.io/badge/Ansible-161616?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
   <img src="https://img.shields.io/badge/Splunk-161616?style=flat-square&logo=splunk&logoColor=65A637" alt="Splunk" />
   <img src="https://img.shields.io/badge/Snowflake-161616?style=flat-square&logo=snowflake&logoColor=29B5E8" alt="Snowflake" />
+  <img src="https://img.shields.io/badge/PagerDuty-161616?style=flat-square&logo=pagerduty&logoColor=06AC38" alt="PagerDuty" />
 </p>
 
 ## The loop I actually work in
 
-Static Markdown can't run real interactivity, but it can make you click —
-so each stage below is collapsed until you open it.
+Eight stages, one loop. Click a stage to open it.
 
 ```mermaid
 flowchart LR
@@ -104,7 +104,8 @@ See <a href="https://github.com/dhamsey3/pipelineforge-aws-devops-platform">Pipe
 <summary><b>Test</b> — before it becomes someone else's incident</summary>
 <br>
 
-Load and failure-mode testing, not just green checkmarks.
+Load and failure-mode testing, not just green checkmarks. A suite that has
+never seen real traffic is a guess, not confidence.
 See <a href="https://github.com/dhamsey3/distributed-load-testing">Distributed Load Testing</a>.
 </details>
 
@@ -135,10 +136,11 @@ See <a href="https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment">Ope
 </details>
 
 <details>
-<summary><b>Monitor</b> — splunk, elk, snowflake</summary>
+<summary><b>Monitor</b> — splunk, elk, snowflake, pagerduty</summary>
 <br>
 
-Observability designed in up front, not bolted on after the first 3am page.
+Observability designed in up front, not bolted on after the first 3 a.m.
+PagerDuty page.
 See <a href="https://github.com/dhamsey3/siem-sandbox-elk">ELK SIEM Sandbox</a>.
 </details>
 
@@ -155,9 +157,9 @@ See <a href="https://github.com/dhamsey3/siem-sandbox-elk">ELK SIEM Sandbox</a>.
 
 ## The pipeline that eats its own output
 
-A scheduled GitHub Action regenerates this animation nightly by walking my
-contribution graph — the same paved-road automation habit applied to a
-profile README instead of a production system.
+Regenerated nightly by a scheduled GitHub Action that walks my contribution
+graph — the same automation habit, pointed at a README instead of a
+production system.
 
 <div align="center">
 
