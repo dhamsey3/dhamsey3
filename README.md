@@ -44,12 +44,103 @@ I care about:
   <img src="https://img.shields.io/badge/Terraform-161616?style=flat-square&logo=terraform&logoColor=7B42BC" alt="Terraform" />
   <img src="https://img.shields.io/badge/Kubernetes-161616?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Docker-161616?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=FFD343" alt="Python" />
+  <img src="https://img.shields.io/badge/Jenkins-161616?style=flat-square&logo=jenkins&logoColor=D24939" alt="Jenkins" />
   <img src="https://img.shields.io/badge/GitHub_Actions-161616?style=flat-square&logo=github-actions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Git-161616?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Bash-161616?style=flat-square&logo=gnu-bash&logoColor=4EAA25" alt="Bash" />
+  <img src="https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=FFD343" alt="Python" />
   <img src="https://img.shields.io/badge/Ansible-161616?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
   <img src="https://img.shields.io/badge/Splunk-161616?style=flat-square&logo=splunk&logoColor=65A637" alt="Splunk" />
   <img src="https://img.shields.io/badge/Snowflake-161616?style=flat-square&logo=snowflake&logoColor=29B5E8" alt="Snowflake" />
 </p>
+
+## The loop I actually work in
+
+Static Markdown can't run real interactivity, but it can make you click —
+so each stage below is collapsed until you open it.
+
+```mermaid
+flowchart LR
+    Plan([Plan]) --> Code([Code])
+    Code --> Build([Build])
+    Build --> Test([Test])
+    Test --> Release([Release])
+    Release --> Deploy([Deploy])
+    Deploy --> Operate([Operate])
+    Operate --> Monitor([Monitor])
+    Monitor -.->|feedback| Plan
+
+    classDef stage fill:#161616,stroke:#39D353,stroke-width:1px,color:#39D353;
+    class Plan,Code,Build,Test,Release,Deploy,Operate,Monitor stage;
+```
+
+<details>
+<summary><b>🗺️ Plan</b> — the design that has to survive production</summary>
+<br>
+
+Start from failure modes, not features. Before any Terraform exists, I want
+to know what happens when a dependency is slow, a region is down, or a
+deploy runs twice by accident.
+</details>
+
+<details>
+<summary><b>💻 Code</b> — git, bash, python</summary>
+<br>
+
+Small, reviewable changes over big ones. Bash for the glue, Python for
+anything with real logic, Git history that explains *why* a change happened.
+</details>
+
+<details>
+<summary><b>🏗️ Build</b> — jenkins, github actions</summary>
+<br>
+
+Builds should be boring: reproducible, cached, and fast enough that nobody
+is tempted to skip them.
+See <a href="https://github.com/dhamsey3/pipelineforge-aws-devops-platform">PipelineForge</a>.
+</details>
+
+<details>
+<summary><b>🧪 Test</b> — before it becomes someone else's incident</summary>
+<br>
+
+Load and failure-mode testing, not just green checkmarks.
+See <a href="https://github.com/dhamsey3/distributed-load-testing">Distributed Load Testing</a>.
+</details>
+
+<details>
+<summary><b>🚀 Release</b> — terraform, versioned artifacts</summary>
+<br>
+
+Every release is a diff someone can read before it ships, backed by state
+that is reproducible and locked.
+</details>
+
+<details>
+<summary><b>📦 Deploy</b> — kubernetes, ecs/fargate</summary>
+<br>
+
+Self-service deploys with guardrails, so shipping doesn't require asking
+me first.
+See <a href="https://github.com/dhamsey3/internal-developer-platform-api">Internal Developer Platform API</a>.
+</details>
+
+<details>
+<summary><b>⚙️ Operate</b> — the part after the demo</summary>
+<br>
+
+Infrastructure that keeps running when nobody is watching it, and degrades
+predictably when something breaks.
+See <a href="https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment">OpenStreetMap on AWS</a>.
+</details>
+
+<details>
+<summary><b>📊 Monitor</b> — splunk, elk, snowflake</summary>
+<br>
+
+Observability designed in up front, not bolted on after the first 3am page.
+See <a href="https://github.com/dhamsey3/siem-sandbox-elk">ELK SIEM Sandbox</a>.
+</details>
 
 ## Selected builds
 
