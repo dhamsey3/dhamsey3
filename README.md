@@ -75,7 +75,7 @@ flowchart LR
 ```
 
 <details>
-<summary><b>🗺️ Plan</b> — the design that has to survive production</summary>
+<summary><b>Plan</b> — the design that has to survive production</summary>
 <br>
 
 Start from failure modes, not features. Before any Terraform exists, I want
@@ -84,7 +84,7 @@ deploy runs twice by accident.
 </details>
 
 <details>
-<summary><b>💻 Code</b> — git, bash, python</summary>
+<summary><b>Code</b> — git, bash, python</summary>
 <br>
 
 Small, reviewable changes over big ones. Bash for the glue, Python for
@@ -92,7 +92,7 @@ anything with real logic, Git history that explains *why* a change happened.
 </details>
 
 <details>
-<summary><b>🏗️ Build</b> — jenkins, github actions</summary>
+<summary><b>Build</b> — jenkins, github actions</summary>
 <br>
 
 Builds should be boring: reproducible, cached, and fast enough that nobody
@@ -101,7 +101,7 @@ See <a href="https://github.com/dhamsey3/pipelineforge-aws-devops-platform">Pipe
 </details>
 
 <details>
-<summary><b>🧪 Test</b> — before it becomes someone else's incident</summary>
+<summary><b>Test</b> — before it becomes someone else's incident</summary>
 <br>
 
 Load and failure-mode testing, not just green checkmarks.
@@ -109,7 +109,7 @@ See <a href="https://github.com/dhamsey3/distributed-load-testing">Distributed L
 </details>
 
 <details>
-<summary><b>🚀 Release</b> — terraform, versioned artifacts</summary>
+<summary><b>Release</b> — terraform, versioned artifacts</summary>
 <br>
 
 Every release is a diff someone can read before it ships, backed by state
@@ -117,7 +117,7 @@ that is reproducible and locked.
 </details>
 
 <details>
-<summary><b>📦 Deploy</b> — kubernetes, ecs/fargate</summary>
+<summary><b>Deploy</b> — kubernetes, ecs/fargate</summary>
 <br>
 
 Self-service deploys with guardrails, so shipping doesn't require asking
@@ -126,7 +126,7 @@ See <a href="https://github.com/dhamsey3/internal-developer-platform-api">Intern
 </details>
 
 <details>
-<summary><b>⚙️ Operate</b> — the part after the demo</summary>
+<summary><b>Operate</b> — the part after the demo</summary>
 <br>
 
 Infrastructure that keeps running when nobody is watching it, and degrades
@@ -135,7 +135,7 @@ See <a href="https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment">Ope
 </details>
 
 <details>
-<summary><b>📊 Monitor</b> — splunk, elk, snowflake</summary>
+<summary><b>Monitor</b> — splunk, elk, snowflake</summary>
 <br>
 
 Observability designed in up front, not bolted on after the first 3am page.
