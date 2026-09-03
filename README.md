@@ -58,7 +58,7 @@ I care about:
 ## The loop I actually work in
 
 ```mermaid
-flowchart LR
+flowchart TD
     Plan([Plan]) --> Code([Code])
     Code --> Build([Build])
     Build --> Test([Test])
@@ -74,14 +74,12 @@ flowchart LR
 
 ## Selected builds
 
-| Project | What it explores |
-| --- | --- |
-| **[PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)** | An AWS-native delivery platform with CodePipeline, CodeBuild, ECR, and ECS Fargate. |
-| **[Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing)** | Distributed performance testing for understanding how systems behave under load. |
-| **[Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api)** | A repeatable API for provisioning infrastructure and supporting Kubernetes deployments. |
-| **[OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)** | Terraform, ECS/Fargate, RDS, and CI/CD assembled as a production-style deployment. |
-| **[ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk)** | A Docker lab for log analysis, detection engineering, and security experiments. |
-| **[Automation with Python](https://github.com/dhamsey3/Automation-with-Python)** | Small operational tools that remove repetitive work and sharpen daily workflows. |
+- **[PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)** — An AWS-native delivery platform with CodePipeline, CodeBuild, ECR, and ECS Fargate.
+- **[Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing)** — Distributed performance testing for understanding how systems behave under load.
+- **[Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api)** — A repeatable API for provisioning infrastructure and supporting Kubernetes deployments.
+- **[OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)** — Terraform, ECS/Fargate, RDS, and CI/CD assembled as a production-style deployment.
+- **[ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk)** — A Docker lab for log analysis, detection engineering, and security experiments.
+- **[Automation with Python](https://github.com/dhamsey3/Automation-with-Python)** — Small operational tools that remove repetitive work and sharpen daily workflows.
 
 ## The pipeline that eats its own output
 
