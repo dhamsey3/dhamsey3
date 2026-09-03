@@ -38,18 +38,31 @@ I care about:
 
 ## Tools I reach for
 
+**Cloud & Infrastructure**
 <p>
   <img src="https://img.shields.io/badge/AWS-161616?style=flat-square&logo=amazon-aws&logoColor=FF9900" alt="AWS" />
   <img src="https://img.shields.io/badge/Azure-161616?style=flat-square&logo=microsoft-azure&logoColor=0078D4" alt="Azure" />
   <img src="https://img.shields.io/badge/Terraform-161616?style=flat-square&logo=terraform&logoColor=7B42BC" alt="Terraform" />
   <img src="https://img.shields.io/badge/Kubernetes-161616?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Docker-161616?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Ansible-161616?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
+</p>
+
+**CI/CD & Source Control**
+<p>
   <img src="https://img.shields.io/badge/Jenkins-161616?style=flat-square&logo=jenkins&logoColor=D24939" alt="Jenkins" />
   <img src="https://img.shields.io/badge/GitHub_Actions-161616?style=flat-square&logo=github-actions&logoColor=2088FF" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Git-161616?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
   <img src="https://img.shields.io/badge/Bash-161616?style=flat-square&logo=gnu-bash&logoColor=4EAA25" alt="Bash" />
+</p>
+
+**Languages**
+<p>
   <img src="https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=FFD343" alt="Python" />
-  <img src="https://img.shields.io/badge/Ansible-161616?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
+</p>
+
+**Observability & Incident Response**
+<p>
   <img src="https://img.shields.io/badge/Splunk-161616?style=flat-square&logo=splunk&logoColor=65A637" alt="Splunk" />
   <img src="https://img.shields.io/badge/Snowflake-161616?style=flat-square&logo=snowflake&logoColor=29B5E8" alt="Snowflake" />
   <img src="https://img.shields.io/badge/PagerDuty-161616?style=flat-square&logo=pagerduty&logoColor=06AC38" alt="PagerDuty" />
