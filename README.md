@@ -9,6 +9,10 @@ reliability, security, or operability somebody else’s problem.
 
 <a href="https://github.com/dhamsey3">GitHub</a> · <a href="https://github.com/dhamsey3?tab=repositories">Projects</a>
 
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=39D353&center=true&vCenter=true&width=600&lines=%24+terraform+apply+-auto-approve;Apply+complete%21+Resources%3A+12+added%2C+0+changed%2C+0+destroyed.;%24+kubectl+get+pods+-n+prod;web-7f9d4c+++1%2F1+++Running+++0+++++3d;%24+aws+s3+ls+s3%3A%2F%2Fprod-artifacts%2F;%24+echo+%27building+paved+roads%2C+one+pipeline+at+a+time%27" alt="Typing SVG showing rotating DevOps terminal commands" />
+
 </div>
 
 <br>
@@ -57,6 +61,21 @@ I care about:
 | **[OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment)** | Terraform, ECS/Fargate, RDS, and CI/CD assembled as a production-style deployment. |
 | **[ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk)** | A Docker lab for log analysis, detection engineering, and security experiments. |
 | **[Automation with Python](https://github.com/dhamsey3/Automation-with-Python)** | Small operational tools that remove repetitive work and sharpen daily workflows. |
+
+## The pipeline that eats its own output
+
+A scheduled GitHub Action regenerates this animation nightly by walking my
+contribution graph — the same paved-road automation habit applied to a
+profile README instead of a production system.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhamsey3/dhamsey3/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="a snake animation eating the GitHub contribution graph" src="https://raw.githubusercontent.com/dhamsey3/dhamsey3/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ## Current direction
 
