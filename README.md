@@ -57,8 +57,6 @@ I care about:
 
 ## The loop I actually work in
 
-Eight stages, one loop. Click a stage to open it.
-
 ```mermaid
 flowchart LR
     Plan([Plan]) --> Code([Code])
@@ -74,75 +72,16 @@ flowchart LR
     class Plan,Code,Build,Test,Release,Deploy,Operate,Monitor stage;
 ```
 
-<details>
-<summary><b>Plan</b> — the design that has to survive production</summary>
-<br>
-
-Start from failure modes, not features. Before any Terraform exists, I want
-to know what happens when a dependency is slow, a region is down, or a
-deploy runs twice by accident.
-</details>
-
-<details>
-<summary><b>Code</b> — git, bash, python</summary>
-<br>
-
-Small, reviewable changes over big ones. Bash for the glue, Python for
-anything with real logic, Git history that explains *why* a change happened.
-</details>
-
-<details>
-<summary><b>Build</b> — jenkins, github actions</summary>
-<br>
-
-Builds should be boring: reproducible, cached, and fast enough that nobody
-is tempted to skip them.
-See <a href="https://github.com/dhamsey3/pipelineforge-aws-devops-platform">PipelineForge</a>.
-</details>
-
-<details>
-<summary><b>Test</b> — before it becomes someone else's incident</summary>
-<br>
-
-Load and failure-mode testing, not just green checkmarks. A suite that has
-never seen real traffic is a guess, not confidence.
-See <a href="https://github.com/dhamsey3/distributed-load-testing">Distributed Load Testing</a>.
-</details>
-
-<details>
-<summary><b>Release</b> — terraform, versioned artifacts</summary>
-<br>
-
-Every release is a diff someone can read before it ships, backed by state
-that is reproducible and locked.
-</details>
-
-<details>
-<summary><b>Deploy</b> — kubernetes, ecs/fargate</summary>
-<br>
-
-Self-service deploys with guardrails, so shipping doesn't require asking
-me first.
-See <a href="https://github.com/dhamsey3/internal-developer-platform-api">Internal Developer Platform API</a>.
-</details>
-
-<details>
-<summary><b>Operate</b> — the part after the demo</summary>
-<br>
-
-Infrastructure that keeps running when nobody is watching it, and degrades
-predictably when something breaks.
-See <a href="https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment">OpenStreetMap on AWS</a>.
-</details>
-
-<details>
-<summary><b>Monitor</b> — splunk, elk, snowflake, pagerduty</summary>
-<br>
-
-Observability designed in up front, not bolted on after the first 3 a.m.
-PagerDuty page.
-See <a href="https://github.com/dhamsey3/siem-sandbox-elk">ELK SIEM Sandbox</a>.
-</details>
+| Stage | In practice |
+| --- | --- |
+| **Plan** | Design for failure modes before any Terraform exists. |
+| **Code** | Git, Bash, Python — small, reviewable changes. |
+| **Build** | Jenkins, GitHub Actions — boring, reproducible builds. [PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) |
+| **Test** | Load and failure-mode testing, not just green checkmarks. [Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing) |
+| **Release** | Reviewable diffs, backed by reproducible, locked state. |
+| **Deploy** | Kubernetes, ECS/Fargate — self-service, with guardrails. [Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api) |
+| **Operate** | Infrastructure that degrades predictably, not silently. [OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) |
+| **Monitor** | Splunk, ELK, Snowflake, PagerDuty — observability built in, not bolted on. [ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk) |
 
 ## Selected builds
 
