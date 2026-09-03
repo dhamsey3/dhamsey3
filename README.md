@@ -72,17 +72,6 @@ flowchart LR
     class Plan,Code,Build,Test,Release,Deploy,Operate,Monitor stage;
 ```
 
-| Stage | In practice |
-| --- | --- |
-| **Plan** | Design for failure modes before any Terraform exists. |
-| **Code** | Git, Bash, Python — small, reviewable changes. |
-| **Build** | Jenkins, GitHub Actions — boring, reproducible builds. [PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform) |
-| **Test** | Load and failure-mode testing, not just green checkmarks. [Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing) |
-| **Release** | Reviewable diffs, backed by reproducible, locked state. |
-| **Deploy** | Kubernetes, ECS/Fargate — self-service, with guardrails. [Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api) |
-| **Operate** | Infrastructure that degrades predictably, not silently. [OpenStreetMap on AWS](https://github.com/dhamsey3/openstreetmap-aws-cloud-deployment) |
-| **Monitor** | Splunk, ELK, Snowflake, PagerDuty — observability built in, not bolted on. [ELK SIEM Sandbox](https://github.com/dhamsey3/siem-sandbox-elk) |
-
 ## Selected builds
 
 | Project | What it explores |
