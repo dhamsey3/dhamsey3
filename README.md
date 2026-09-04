@@ -87,6 +87,7 @@ flowchart TD
 
 ## Selected builds
 
+- **[pg-slot-sentinel](https://github.com/dhamsey3/pg-slot-sentinel)** — Monitors Postgres replication slots for orphaned WAL retention before it fills RDS storage, built from a real incident. Ships with a docker-compose demo that reproduces the failure mode end to end.
 - **[PipelineForge](https://github.com/dhamsey3/pipelineforge-aws-devops-platform)** — An AWS-native delivery platform with CodePipeline, CodeBuild, ECR, and ECS Fargate.
 - **[Distributed Load Testing](https://github.com/dhamsey3/distributed-load-testing)** — Distributed performance testing for understanding how systems behave under load.
 - **[Internal Developer Platform API](https://github.com/dhamsey3/internal-developer-platform-api)** — A repeatable API for provisioning infrastructure and supporting Kubernetes deployments.
