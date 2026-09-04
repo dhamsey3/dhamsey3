@@ -4,8 +4,14 @@
 
 ### CLOUD PLATFORMS · AUTOMATION · DEVELOPER EXPERIENCE
 
+**Platform Engineer / Senior DevOps Engineer** — AWS · Terraform · Kubernetes
+
 I build the paved roads that let engineering teams move quickly without making
 reliability, security, or operability somebody else’s problem.
+
+- Self-service internal developer platform for provisioning cloud infrastructure and Kubernetes environments
+- A monitoring tool that catches a specific AWS database failure mode before it becomes a storage outage
+- A full AWS delivery pipeline, from CI/CD through container orchestration, built end to end with Terraform
 
 <a href="https://github.com/dhamsey3">GitHub</a> · <a href="https://github.com/dhamsey3?tab=repositories">Projects</a>
 
