@@ -4,7 +4,7 @@
 
 ### CLOUD PLATFORMS · AUTOMATION · DEVELOPER EXPERIENCE
 
-**Platform Engineer / Senior DevOps Engineer** — AWS · Terraform · Kubernetes
+**Platform Engineer** — AWS · Terraform · Kubernetes
 
 I build the paved roads that let engineering teams move quickly without making
 reliability, security, or operability somebody else’s problem.
