@@ -4,7 +4,7 @@
 
 ### CLOUD PLATFORMS · AUTOMATION · DEVELOPER EXPERIENCE
 
-**Platform Engineer · DevOps · Cloud · MLOps** — AWS · Terraform · Kubernetes
+**Platform Engineer · DevOps · Cloud · MLOps** — AWS · Azure · Terraform · Kubernetes
 
 I build the paved roads that let engineering teams move quickly without making
 reliability, security, or operability somebody else’s problem.
