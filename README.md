@@ -29,13 +29,7 @@ reliability, security, or operability somebody else’s problem.
 03  OPERABILITY               systems that are observable before they are on fire
 ```
 
-## A little context
-
-I’m a cloud-native engineer working at the intersection of infrastructure,
-software delivery, and developer enablement. My favorite work turns a fragile
-manual process into a dependable system with a useful interface.
-
-I care about:
+## What I care about
 
 - Infrastructure that is reproducible, secure, and easy to evolve
 - Delivery systems that make the right path the easiest path
@@ -115,13 +109,6 @@ production system.
 </picture>
 
 </div>
-
-## Current direction
-
-```text
-cloud infrastructure  /  internal platforms  /  delivery automation
-security-minded ops    /  useful abstractions  /  fewer manual rituals
-```
 
 <div align="center">
 
