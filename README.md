@@ -1,8 +1,8 @@
 # Hi, I'm Dami
 
-**Platform engineer** working on cloud infrastructure, delivery pipelines and developer tooling on AWS and Azure.
+**Cloud & DevOps Engineer** working on AWS and Azure infrastructure, CI/CD pipelines and internal developer platforms.
 
-I build internal platforms that let engineering teams ship quickly without making reliability, security or operability someone else's problem.
+I build infrastructure and delivery pipelines that let teams ship quickly without making reliability, security or operability someone else's problem.
 
 ## Selected projects
 
