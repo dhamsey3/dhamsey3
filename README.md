@@ -6,9 +6,7 @@ I build systems that run unattended, raise an alarm when they break and keep a r
 
 **Now:** running [voltcast](https://github.com/dhamsey3/voltcast) live on AWS. Next up: deploys from CI over OIDC and a public status page.
 
-## Featured: voltcast
-
-<a href="https://github.com/dhamsey3/voltcast"><img src="https://raw.githubusercontent.com/dhamsey3/voltcast/main/docs/architecture.png" alt="voltcast architecture on AWS: EventBridge Scheduler starts a Step Functions daily run that drives one Lambda; the Lambda pulls prices from SMARD and keeps all state in a versioned, KMS-encrypted S3 bucket; CloudWatch alarms notify on-call through SNS" width="100%"></a>
+## Featured: [voltcast](https://github.com/dhamsey3/voltcast)
 
 A live forecasting service. Every morning it forecasts tomorrow's German/Luxembourg day-ahead electricity price for all 96 quarter-hours, publishes before the 12:00 auction closes and grades itself against the cleared prices that afternoon.
 
