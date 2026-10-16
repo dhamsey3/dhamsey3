@@ -4,15 +4,16 @@
 
 I build systems that run unattended, raise an alarm when they break and keep a record of what they did. Teams ship faster when reliability, security and operability are built in from the start, not left as someone else's problem.
 
-**Now:** running [voltcast](https://github.com/dhamsey3/voltcast) live on AWS. Next up: deploys from CI over OIDC and a public status page.
+**Now:** running [voltcast](https://github.com/dhamsey3/voltcast) live on AWS, deployed from CI over OIDC, with a [public status page](https://dhamsey3.github.io/voltcast/) that shows its forecast error and AWS bill. Next up: its first learned model.
 
 ## Featured: [voltcast](https://github.com/dhamsey3/voltcast)
 
 A live forecasting service. Every morning it forecasts tomorrow's German/Luxembourg day-ahead electricity price for all 96 quarter-hours, publishes before the 12:00 auction closes and grades itself against the cleared prices that afternoon.
 
-- **Runs unattended** on EventBridge Scheduler, Step Functions and one Lambda, all in Terraform, for an estimated 2 USD a month.
+- **Runs unattended** on EventBridge Scheduler, Step Functions and one Lambda, all in Terraform, for about 1 USD a month.
 - **Says when it breaks**: alarms for a missed deadline or a failed run, a runbook for each alarm and an incident log.
 - **Refuses bad data**: a data contract stops the run when upstream prices look wrong, and every forecast records the code version and a hash of every input it read.
+- **Shows its record in public**: the [status page](https://dhamsey3.github.io/voltcast/) is rebuilt twice a day from the service's own results, with a read-only role.
 
 ## More projects
 
